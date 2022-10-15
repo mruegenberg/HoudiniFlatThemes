@@ -6,7 +6,7 @@ Flat themes for Houdini, to be easier on the eye.
 
 ![Dark](./screenshots/dark.png)
 
-![Light](./config/screenshots/light.png)
+![Light](./screenshots/light.png)
 
 
 
