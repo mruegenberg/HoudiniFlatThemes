@@ -64,7 +64,7 @@ ButtonNonActiveGradLow:	UIDARK_DARK      // Low end of gradient on non-selected 
 // These are used for tons of borders all over the place, but
 // NOT for buttons >:-(
 ButtonShadowLight:	UIDARK_BORDER_DARK
-ButtonShadowMed:	UIDARK_BORDER_LIGHT
+ButtonShadowMed:	UIDARK_BORDER_DARK
 ButtonShadowMedDark:	UIDARK_BORDER_DARK // border around some icons such as pin picon
 ButtonShadowDark:	UIDARK_BORDER_DARK
 ButtonShadow:		UIDARK_BORDER_DARK
@@ -230,7 +230,7 @@ ScrollbarButtonArrow:		UIDARK_TEXT
 
 ScrollArrow:			UIDARK_TEXT // e.g in SideFX labs Create Asset UI for some dropdowns
 ScrollArrowSelected:		UIDARK_CONTRAST1
-ScrollArrowDisabled:		YELLOW
+ScrollArrowDisabled:		UIDARK_DARKER // e.g viewport icons scroll arrow disabled
 
 // rarely used
 ProgressMeterPercentLabelLeft:		UIDARK_TEXT
@@ -261,7 +261,7 @@ ListTitleHighlightGradHi:	HSV 36 1 0.8 // unused?
 ListTitleHighlightGradLow:	HSV 36 1 0.8 // unused?
 ListTitleFilteredText:		SELECTION_BASE // unused?
 ListText:			UIDARK_TEXT		// clrs text in download clr scheme window
-ListAltText:			HSV 40 0.85 1.0 / unused?
+ListAltText:			1 0 0 // HSV 40 0.85 1.0 / unused?
 
 SwitchButtonSelected: GREY(0.5)
 SwitchButtonLocated: GREY(0.2)
@@ -284,8 +284,8 @@ GroupHeader0:           GREY(0.20)
 GroupHeaderTop0:        GREY(0.20)
 GroupHeaderHi0:         UIDARK_LIGHT // hover over a tab
 GroupHeaderHiTop0:      UIDARK_LIGHT // hover over a tab
-GroupHeaderOpen0:       UIDARK_LIGHTER // active tab
-GroupHeaderOpenTop0:    UIDARK_LIGHTER // active tab
+GroupHeaderOpen0:       UIDARK_LIGHT // active tab
+GroupHeaderOpenTop0:    UIDARK_LIGHT // active tab
 GroupHeaderDisabled0:   GREY(0.20)
 GroupHeaderDisabledTop0:GREY(0.20)
 GroupBody0:             UIDARK_LIGHTER // active tab level 0 background

@@ -64,7 +64,7 @@ ButtonNonActiveGradLow:	UILIGHT_DARK      // Low end of gradient on non-selected
 // These are used for tons of borders all over the place, but
 // NOT for buttons >:-(
 ButtonShadowLight:	UILIGHT_BORDER_DARK
-ButtonShadowMed:	UILIGHT_BORDER_LIGHT
+ButtonShadowMed:	UILIGHT_BORDER_DARK
 ButtonShadowMedDark:	UILIGHT_BORDER_DARK // border around some icons such as pin picon
 ButtonShadowDark:	UILIGHT_BORDER_DARK
 ButtonShadow:		UILIGHT_BORDER_DARK
@@ -230,7 +230,7 @@ ScrollbarButtonArrow:		UILIGHT_TEXT
 
 ScrollArrow:			UILIGHT_TEXT_LIGHT // e.g in SideFX labs Create Asset UI for some dropdowns
 ScrollArrowSelected:		UILIGHT_CONTRAST1
-ScrollArrowDisabled:		YELLOW
+ScrollArrowDisabled:		UILIGHT_DARKER // e.g viewport icons scroll arrow disabled
 
 // rarely used
 ProgressMeterPercentLabelLeft:		UILIGHT_TEXT
@@ -282,8 +282,8 @@ GroupHeader0:		GREY(0.7)
 GroupHeaderTop0:        GREY(0.70)
 GroupHeaderHi0:         UILIGHT_LIGHT // hover over a tab
 GroupHeaderHiTop0:      UILIGHT_LIGHT // hover over a tab
-GroupHeaderOpen0:       UILIGHT_LIGHTER // active tab
-GroupHeaderOpenTop0:    UILIGHT_LIGHTER // active tab
+GroupHeaderOpen0:       UILIGHT_LIGHT // active tab
+GroupHeaderOpenTop0:    UILIGHT_LIGHT // active tab
 GroupHeaderDisabled0:   GREY(0.70)
 GroupHeaderDisabledTop0:GREY(0.70)
 GroupBody0:             UILIGHT_LIGHTER // active tab level 0 background
