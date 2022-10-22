@@ -1,0 +1,127 @@
+BackgroundColor:	0.3607 0.4 0.4196	# viewer background
+Color:  0.99 0.60 0.13
+BackgroundBottomColor:	0.3607 0.4 0.4196	# background at the bottom of viewport
+WireframeColor:		0.25 0.2588 0.2627	# wireframe line color
+WireOverColor:		0.4 0.4 0.4  # color of wires in Wire Shaded modes
+GhostFillColor:		0.30 0.30 0.30	# hidden-line ghost fill
+SelectedPrimColor:	#F18805	# selected primitives
+AuxSelectedPrimColor1:	1.00 1.00 0.00	# selected primitives in first tmp. sel
+AuxSelectedPrimColor2:	0.00 1.00 1.00	# selected primitives in second tmp. sel
+CookSelectColor:	0.90 0.85 0.00  # points/primitives in cook selection
+FillSelectionAlpha:	ALPHA 0.8	# Blend factor for shading&select color
+FillSelectionWireOverAlpha: ALPHA 0.5 	# Blend factor for shading&select color
+PrimClosureColor:	0.15 0.40 0.25	# primitives when in closure (not sel'd)
+AuxGeoColor:		0.60 0.40 0.25	# spline and quadric hulls
+SelectedAuxGeoColor:	0.90 0.50 0.10	# selected spline and quadric hulls
+ProfileWireColor:	1 1 1  # profiles
+AxesColor:		1.00 0.10 0.10	# coordinate  or c-plane axes
+XaxesColor:		1.00 0.00 0.56	# sticky x axis
+YaxesColor:		0.02 0.94 0.39	# sticky y axis
+ZaxesColor:		0.00 0.51 0.88	# sticky z axis
+SelectedAxesColor:	1.00 0.50 0.50	# selected coordinate axes
+PrimInfoColor:		0.50 0.05 0.30	# prim-vtx, prim-num, prim-normal
+SelectedPrimInfoColor:	0.90 0.60 0.30	# sel'd prim-vtx, prim-num, prim-normal
+PointColor:		0.3 0.3 0.3	# non-selected points and point info
+SelectedPointColor:	@SelectedPrimColor	# selected points and point info
+Guide1Color:		0.40 0.40 1.00	# 1st guide geometry
+Guide2Color:		0.20 0.50 0.80	# 2nd guide geometry
+CplaneColor:		0.1 0.1 0.1	# non-selected construction plane
+SelectedCplaneColor:	#F18805	# selected construction plane
+CplaneAlpha:		ALPHA 0.15 	# amount of shading between grid lines
+GridColor:		0.25 0.25 0.25	# reference plane
+HeightVectorColor:	1.00 0.10 0.00	# height motion indicator
+HandleColor:		@Color	# handle for direct manip.
+InactiveHandleColor:	0.50 0.50 0.50	# dimmed handle when not active
+SelectedHandleColor:	@Color	# selected handle for direct manip.
+PeanutColor:		@Color	# peanut color for orientation picking
+LabelColor:		1.00 1.00 1.00	# labels in viewports
+SelectedLabelColor:	1.00 1.00 0.00	# labels in the selected viewport
+SnapshotColor:		0.4  0.4  0.4   # viewport snapshot color		
+OverlayLabelColor:	1.00 0.00 1.00	# overlay labels in view
+AuxOverlayLabelColor:	1.00 1.00 1.00	# auxiliary overlay labels in view
+HandlePivotColor:	@Color	# the pivot of handles
+HandleAxisColor:	1.00 1.00 1.00	# axis lines for the handle
+HandlePlaneAxisColor:	0.50 0.20 0.50	# axis lines for the handle
+HandleViewAxisRotateColor:	0.50 0.20 0.50	# outer rotate ring for handle
+CPlaneHandleXlateColor: 0.45 0.00 0.90  # translate axes of c-plane handle
+CPlaneHandleRotateColor: 0.65 0.15 0.25 # rotate portion on c-plane handle
+CPlaneHandleBorderColor: 0.45 0.00 0.90 # scale border on c-plane handle
+OrthoGridColor:		0.34 0.34 0.34	# ortho viewport grid lines
+OrthoGridOriginColor:	0.48 0.48 0.48	# ortho viewport origin lines
+FGridColor:		0.55 0.55 0.55	# uv viewport grid lines
+UVGridOriginColor:	0.48 0.48 0.48	# uv viewport origin lines
+UVGridBoundaryColor:	0.50 0.50 0.50	# uv viewport boundary lines
+ObjectSelectColor:	1.00 1.00 0.00	# object selection highlight color
+ObjectCurrentColor:	1.00 0.85 0.00	# current object highlight color
+ObjectSelectHintColor:	0.40 0.70 0.00	# object selection hint highlight color
+ObjectGhostColor:	0.50 0.50 0.50  # color blended into object when ghosted
+ObjectGhostAlpha:	ALPHA 0.75	# alpha for color/ghost mixing
+UVBackFaceFillColor:	0.90 0.50 0.90	# fill color for back facing polys
+UVOverlapFillColor:	1.00 0.00 0.00	# fill color for overlapping UV areas
+UVOverlapFillAlpha:	ALPHA 0.70	# alpha for overlapping UV areas
+UVFillAlpha:		ALPHA 0.40	# fill alpha for front facing polys
+SelectedUVBackFaceFillColor:	0.90 0.65 0.90	# the selected version
+IKCriticalZoneColor:	0.98 0.35 0.20	# inv. kin. danger zone cone
+ViewMaskOverlayColor:	0.10 0.10 0.10	# view mask overlay
+TextColor:		0.95 0.95 0.95  # viewport text 
+TextShadowColor:	0.4  0.4  0.4   # viewport text dropshadow
+GeoWarningColor:	1.0  0.7  0.1   # indicates a potential geo problem
+LocateColor:		0.8  0.5  0.0	# mouse locate overlay color 
+LocateAlpha:		ALPHA 	  0.2   # mouse locate overlay alpha
+LocateNearColor:	0.1  0.9  0.1	# mouse locate nearby overlay color 
+LocateNearAlpha:	ALPHA 	  0.3   # mouse locate nearby overlay alpha
+PrimLocateColor:	0.4 0.75 1.0	# mouse locate prim color 
+PrimLocateRemoveColor:	0.95 0.30 0.30 	# mouse locate prim color 
+PrimLocateToggleColor:	0.5 0.15 0.6	# mouse locate prim color 
+PrimLocateAlpha:	ALPHA 	  0.4   # mouse locate prim overlay alpha
+PointLocateColor:	0.6 0.9 1.0	# mouse locate point color 
+PointLocateRemoveColor:	1.0 0.10 0.10	# mouse locate point color 
+PointLocateToggleColor:	0.7 0.3 0.6	# mouse locate point color 
+PointLocateAlpha:	ALPHA 	  1     # mouse locate point overlay alpha
+EdgeLocateColor:	0.6 0.9 1.0	# mouse locate edge color 
+EdgeLocateRemoveColor:	1.0 0.10 0.10	# mouse locate edge color 
+EdgeLocateToggleColor:	0.7 0.3 0.6	# mouse locate edge color 
+EdgeLocateAlpha:	ALPHA 	  1     # mouse locate edge overlay alpha
+VertexLocateColor:	0.6 0.9 1.0	# mouse locate vertex color 
+VertexLocateRemoveColor: 1.0 0.10 0.10  # mouse locate vertex color 
+VertexLocateToggleColor: 0.7 0.3 0.6    # mouse locate vertex color 
+VertexLocateAlpha:	ALPHA 	  1     # mouse locate vertex overlay alpha
+BreakpointLocateColor:	0.6 0.9 1.0	# mouse locate breakpoint color 
+BreakpointLocateRemoveColor: 1.0 0.30 0.30 # mouse locate breakpoint color 
+BreakpointLocateToggleColor: 0.7 0.3 0.6 # mouse locate breakpoint color 
+BreakpointLocateAlpha:	ALPHA 	  1     # mouse locate breakpoint overlay alpha
+HandleLocateColor:	0.9  0.9  0.65  # glow around mouse located handle part
+HandleLocatePassiveColor: 0.3 0.3 0.65  # passive glow on located handle part
+HandleLocateAlpha:	ALPHA     0.5 	# opacity of handle locate glow
+HandleAxisLocateAlpha:	ALPHA     0.3 	# opacity of handle axis locate glow
+HandleTracerFillAlpha:	ALPHA     0.3	# opacity of filled handle tracers
+SelectBoxOutline: 	0.8 1.0 1.0	# selection box outer outline
+SelectBoxInnerLine: 	0.7 0.9 0.9	# selection box inner outline
+SelectBoxFill:		0.5 0.7 0.7	# selection box shaded fill
+SelectBoxAlpha:		ALPHA	  0.1   # selection box fill alpha
+SliderKnobMaxColor:	1.0 1.0 0.0	# slider handle max value warning 
+ObjectNameColor:	0.8 0.0 0.0	# colr for object name guides
+PointTrailColor:	0.00 0.58 0.58	# non-selected point trails
+SelectedPointTrailColor: 0.80 0.30 0.30	# selected point trails
+RenderBorderColor:	0.80 0.80 0.80  # Render Region border (when located)
+RenderInactiveBorderColor: 0.3 0.3 0.3 	# Render Region border (not located)
+RenderTextColor:	0.90 0.90 0.90  # Render Region heading text
+RenderLocateColor:	0.9 0.7 0.5	# Render Region part locate color
+RenderBarColor:		0.3 0.3 0.3	# Render Region title bar bg color
+FlattenPinColor:	1.0 0.0 0.0	# UV Flatten state pin color
+FlattenSelectedPinColor: 1.0 1.0 0.0	# UV Flatten state selected pin color
+FlattenInitialPinColor:	0.85 0.35 0.35	# UV Flatten state initial pin color
+BoundaryColor:		0.42 0.56 0.71		# Geometry boundary decoration
+EdgeTipColor:		0.1 0.9 0.4	# Edge selection direction indicator
+
+MessageColor:		0.1 0.1 0.1     # color of normal-priority messages
+PromptColor:		0.0 0.0 0.25	# color of tool prompts
+WarningColor:		1.0 0.85 0.0	# color of warning messages
+ErrorColor:		0.7 0.0 0.0	# color of error messages
+SuccessColor:		0.3 0.95 0.3	# color of success indication
+
+OverlayBackgroundColor:	@BackgroundColor	# Background of group list
+OverlayBackgroundAlpha:	ALPHA 0.5	# Alpha for background of group list
+
+BackfaceTintColor:	@BackgroundColor   # Tint for backfacing polys, when on
+
